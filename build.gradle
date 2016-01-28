@@ -1,0 +1,17 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath "org.lesscss:lesscss:1.7.0.1.1"
+    }
+}
+
+task lessCompile << {
+    def compiler = new org.lesscss.LessCompiler()
+    compiler.compile(file("less/custom.less"), file("css/custom.css"))
+}
+
+task wrapper(type: Wrapper) {
+	gradleVersion = "2.7"
+}
