@@ -63,3 +63,17 @@ gradle-app.setting
 
 # Cache of project
 .gradletasknamecache
+# End of https://www.gitignore.io/api/jetbrains,gradle
+
+# Created by https://www.gitignore.io/api/hugo
+
+### Hugo ###
+# Hugo binary
+hugo*
+
+# Generated files at default location
+/public/
+/resources/_gen
+
+
+# End of https://www.gitignore.io/api/hugo
