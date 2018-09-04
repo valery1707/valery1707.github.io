@@ -1,0 +1,15 @@
+.measure-wide {
+  max-width: 50em;
+}
+
+nav {
+  padding-bottom: 0 !important;
+}
+
+header > div > div.tc-l {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+header > div > div.tc-l > h1 {
+  margin: 0;
+}

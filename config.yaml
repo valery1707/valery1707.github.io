@@ -1,4 +1,4 @@
-baseURL: "https://blog.valery1707.name/"
+baseURL: "https://valery1707.name/"
 languageCode: "ru-ru"
 title: "Вырва Валерий"
 theme: "ananke"
@@ -17,7 +17,7 @@ defaultContentLanguage: "ru"
 defaultContentLanguageInSubdir: true
 
 # service plugins
-googleAnalytics: ""
+googleAnalytics: "UA-72977219-1"
 enableRobotsTXT: true
 
 sitemap:
@@ -26,8 +26,12 @@ sitemap:
   filename: "sitemap.xml"
 
 params:
-  favicon: ""
-  description: "`params.description`"
+  custom_css:
+  - css/fonts.css
+  - css/theme-fixes.css
+  body_classes: "lato bg-near-white"
+  favicon: "favicon.ico"
+  description: "Valeriy Vyrva home page"
   facebook: "https://facebook.com/valery1707"
   twitter: "https://twitter.com/valeriy1707"
   instagram: ""
@@ -38,3 +42,15 @@ params:
   background_color_class: "bg-black"
   featured_image: "/images/gohugo-default-sample-hero-image.jpg"
   recent_posts_number: 2
+
+languages:
+  ru:
+    params:
+      linkedin: https://www.linkedin.com/in/valery1707/ru
+    title: Вырва Валерий
+    weight: 1
+  en:
+    params:
+      linkedin: https://www.linkedin.com/in/valery1707/en
+    title: Valeriy Vyrva
+    weight: 2
